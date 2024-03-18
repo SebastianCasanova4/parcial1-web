@@ -1,0 +1,13 @@
+.profile-img{
+    border-radius: 100%;
+    width: 250px;
+    height: 250px;
+}
+
+.info-container__description-container{
+    text-align: left;
+}
+
+.wrapper{
+    margin-bottom: 30px;
+}

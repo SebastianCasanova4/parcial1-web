@@ -1,21 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
-import Profile from './components/Profile';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import TopNav from './components/TopNav';
-import ItemListContainer from './components/ItemListContainer';
+import Perfil from "./components/Perfil";
+import DetallePerfil from "./components/DetallePerfil";
 
 function App() {
   return (
-   <div>
+    <div className="App">
       <BrowserRouter>
-
-          <Routes>
-            <Route path="/" element={<ItemListContainer />} />
-          </Routes>
-          
-        </BrowserRouter>
-   </div>
+        <Routes>
+          <Route path="/" element={<Perfil />}/>
+          <Route path="/perfil" element={<DetallePerfil/>} />
+        </Routes>
+      </BrowserRouter>
+    </div>
   );
 }
 
