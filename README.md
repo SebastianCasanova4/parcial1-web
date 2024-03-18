@@ -12,3 +12,4 @@ Para la relación entre vistas se usó el componente Link de react-bootstrap. La
 2. Se usaron hooks de estado para poder acceder al valor de los input y dependiendo de ellos realizar verificaciones
 3. Para la navegación se usaron links
 4. Para internacionalización se usó intl, con archivos json para definir los id y el valor asignado.
+5. Cabe acalarar que hbieron problemas del computador personal para localización pero en teoria se debe poder descomentar las lineas de la misma y va a funcionar.
